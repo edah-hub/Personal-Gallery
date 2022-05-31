@@ -1,4 +1,5 @@
 newenv/
+pycache*
 
 
 node_modules
@@ -132,4 +133,29 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+        .env
+        Personal_Gallery/__pycache__/__init__.cpython-39.pyc
+        Personal_Gallery/__pycache__/settings.cpython-39.pyc
+        Personal_Gallery/__pycache__/urls.cpython-39.pyc
+        Personal_Gallery/__pycache__/wsgi.cpython-39.pyc
+        db.sqlite3
+        photos/__pycache__/__init__.cpython-39.pyc
+        photos/__pycache__/admin.cpython-39.pyc
+        photos/__pycache__/apps.cpython-39.pyc
+        photos/__pycache__/models.cpython-39.pyc
+        photos/__pycache__/urls.cpython-39.pyc
+        photos/__pycache__/views.cpython-39.pyc
+        photos/migrations/__pycache__/0001_initial.cpython-39.pyc
+        photos/migrations/__pycache__/__init__.cpython-39.pyc
+
+SECRET_KEY='r4sc*y#)i8l0a*&(0d!mm7+omc#y(c+=$!q7&+5o_z1j)w%$n_'
+DEBUG=True
+DB_NAME='photos'
+DB_USER='moringa'
+DB_PASSWORD='Access'
+DB_HOST='127.0.0.1'
+MODE='dev'
+ALLOWED_HOSTS='musembigallery2.herokuapp.com'
+DISABLE_COLLECTSTATIC=1
 
