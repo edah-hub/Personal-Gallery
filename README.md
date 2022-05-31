@@ -91,7 +91,7 @@ python manage.py server.
 
 ## Live Link
 
-View the deployed site <a href="#">here</a>
+View the deployed site <a href="https://mysterious-depths-66849.herokuapp.com/">here</a>
 
 ## License
 
