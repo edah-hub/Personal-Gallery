@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'I.F.C. LOS BANDITOS';
+    src: url('IFCLOSBANDITOS-Bold.eot');
+    src: url('IFCLOSBANDITOS-Bold.eot?#iefix') format('embedded-opentype'),
+        url('IFCLOSBANDITOS-Bold.woff2') format('woff2'),
+        url('IFCLOSBANDITOS-Bold.woff') format('woff'),
+        url('IFCLOSBANDITOS-Bold.ttf') format('truetype'),
+        url('IFCLOSBANDITOS-Bold.svg#I.F.C.LOSBANDITOS-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+

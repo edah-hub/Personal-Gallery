@@ -1,0 +1,28 @@
+{% extends 'photos/base.html'%}
+
+{% block content %}
+<div class="cat-header container-fluid">
+  <h1>Browse Images </h1>
+</div>
+{% include 'photos/partials/_breadcrumb.html'%}
+
+<div class="container-fluid">
+  <div class="container">
+    <div class="all-images">
+      {% if cat_results %}
+        {% for category in cat_results %}
+        <div class="card" style="width: 22rem;">
+          <img src="{{ category.photo.url }}" alt="" class='img-fluid'
+            onclick="showModal('{{category.img_name}}','{{category.description}}','{{category.photo.url}}','{{category.category}}','{{category.location.country}}', '{{category.location.city}}','{{category.location.locale}}','{{category.photo.url}}',)">
+        </div>
+        {% include 'photos/image_modal.html'%}
+        {% endfor %}
+      {% else %}
+      <h1 class="text-center">There are no images associated with this category</h1>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+

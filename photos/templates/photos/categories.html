@@ -1,0 +1,23 @@
+{% extends 'photos/base.html'%}
+
+{% block content %}
+<div class="cat-header container-fluid">
+  <h1>Browse Images By Categories</h1>
+</div>
+{% include 'photos/partials/_breadcrumb.html'%}
+<div class="container-fluid category-list">
+  <div class="container">
+    <div class="row">
+      {% for category in categories %}
+      <div class="col-md-6 col-sm-6 col-xs-6">
+        <div class="card">
+          <a href="{% url 'by_category' category.id%}">
+            <h4>{{ category.cat_name }}</h4>
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endblock %}

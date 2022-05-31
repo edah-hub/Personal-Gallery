@@ -1,0 +1,23 @@
+{% extends 'photos/base.html' %}
+
+
+{% block content %}
+
+{{block.super}}
+{% include 'photos/partials/_breadcrumb.html'%}
+<div class="container-fluid boded">
+  <div class="container">
+    <h1>Browse Gallery</h1>
+    <hr>
+    <div class="all-images">
+      {% for img in images %}
+      <div class="card" style="width: 22rem;" data-toggle="modal" data-target="#imageModal">
+        <img src="{{ img.photo.url }}" alt="" class='img-fluid' 
+          onclick="showModal('{{img.img_name}}','{{img.description}}','{{img.photo.url}}','{{img.category}}','{{img.location.country}}', '{{img.location.city}}','{{img.location.locale}}','{{img.photo.url}}',)">
+      </div>
+      {% include 'photos/image_modal.html'%}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endblock %}
