@@ -1,6 +1,7 @@
 # Project Name
 
-The Ultimate Gallery [[![banner1.jpg](https://i.postimg.cc/FzhWxzQq/banner1.jpg)](https://postimg.cc/Q9nJ8XCk)]
+The Ultimate Gallery
+[![Screenshot-from-2022-05-31-16-18-41.png](https://i.postimg.cc/jqXYY4C2/Screenshot-from-2022-05-31-16-18-41.png)](https://postimg.cc/BtXVxDTf)
 
 ## Description
 
