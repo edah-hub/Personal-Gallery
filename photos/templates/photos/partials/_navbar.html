@@ -1,4 +1,4 @@
-\<nav class="navbar justify-content-between">
+\<nav class="navbar justify-content-between navbar-expand-sm bg-light fixed-top">
   <a class="navbar-brand" href="{% url 'homepage'%}"><h4>The Ultimate Gallery</h4></a>
   <form action="{% url 'image-search'%}" method='GET' class="form-inline">
     <input class="form-control mr-sm-2"  name='q' value="{{request.GET.q}}" placeholder="Search...">
