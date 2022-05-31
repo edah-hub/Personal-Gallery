@@ -29,7 +29,7 @@ The Ultimate Gallery is  a personal gallery application that allows a person to 
 ## Technologies and Tools Used
 
 <ul>
-<li>Html and Css </li>
+<li>Html and Css(bootsrap) </li>
 <li>Git Version Control</li>
 <li>Javascript </li>
 <li>Django</li>
