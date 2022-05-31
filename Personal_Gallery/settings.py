@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY='r4sc*y#)i8l0a*&(0d!mm7+omc#y(c+=$!q7&+5o_z1j)w%$n_'
 
 MODE=config("MODE", default="dev")
-# SECRET_KEY = config('SECRET_KEY')
+# SECRET_KEY = config('SECRET_KEY)
 DEBUG = config('DEBUG', default=False, cast=bool)
 # development
 if config('MODE')=="dev":
